@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #3d4a57;
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    flex-wrap: wrap;
+}
+nav img{
+    height: auto;
+    width: 150px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.nav-bar li .buttom {
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #4a5a62; 
+    color: #ffffff;          
+    padding: 4px 20px;        
+    font-weight: normal;      
+    border: none;             
+    cursor: pointer;          
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), inset 0 -1px rgba(0, 0, 0, 0.2); 
+}
+
+header .phone{
+    display: flex;
+    padding: 50px 200px 0px 200px;
+    gap: 20px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header .phone div{
+    width: 600px;
+}
+header .phone h2{
+    font-size: 55px;
+    margin-bottom: 0;
+}
+header .phone p{
+    line-height: 30px;
+    color: azure;
+}
+header .phone .pagraph{
+    line-height: 30px;
+    color: gray;
+}
+.request{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.request button {
+    background: linear-gradient(to bottom, #29a9f8, #1d8fe3);
+    padding: 12px 30px;    
+    border-radius: 25px;   
+    color: #ffffff;          
+    font-size: 14px;          
+    font-weight: bold;       
+    border: none;                     
+}   
+.request a{
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+}
+.logos{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.logos img{
+    padding: 0 100px;
+}
+.features{  
+    padding: 100px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.features div{
+    width: 300px;
+    text-align: center;
+}
+.features button{
+    padding: 15px 25px;
+    background-color: rgb(0, 125, 209);
+    border-radius: 5px;
+    color: aliceblue;
+    border: lightseagreen;
+}
+.selected{
+    padding: 50px 200px;
+}
+.selected .images{
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+.selected .images img{
+    width: 300px;
+}
+.from{
+    padding: 100px 200px;
+}
+.titles{    
+    display: flex;   
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    width: 700px;
+    gap: 50px;
+}
+.left img{
+    height: 150px;
+}
+.left-1{
+    display: flex;
+    width: 700px;
+    gap: 50px; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.left-1 img{
+    height: 150px;
+}
+.right{
+    display: block;
+}
+.tweets{
+    display: block;
+    width: 500px;
+    list-style: none;
+    padding: 0;
+}
+.tweets li{
+    margin-bottom: 30px;
+}
+.tweets p{
+    line-height: 1.5;
+}
+.enlace{
+    text-decoration: none;
+}
+footer{
+    border-top: 1px solid #777;
+    background: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    margin-inline: 200px;
+}
+.box-footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+  font-size: 14px;
+  color: #777;
+}
+.redes-sociales a {
+  display: inline-block;
+  margin-left: 15px;
+}
+.redes-sociales img {
+  width: 28px;
+  height: 28px;
+}
+@media(max-width:1279px){
+    nav{
+        justify-content: center;
+    }
+    header .phone{
+        gap: 0px;
+        justify-content: center;
+    }
+    .features{
+        gap: 20px;
+    }
+    .selected{
+        padding: 10px 110px;
+    }
+    .boxes{
+        gap:0;
+    }
+}
+@media(max-width:920px){
+    header .phone div{
+        justify-content: center;
+        text-align: center;
+    }
+    .features{
+        gap: 30px;
+    } 
+    .selected{
+        padding: 10px 50px;
+    }
+    .selected .images{
+        gap: 20px;
+    }
+    .from{
+        padding: 10px 100px;
+    }
+    .left{
+        flex-wrap: wrap;
+        max-width: 500px;
+        justify-content: center;
+    }
+    .left .pagraph{
+        text-align: center;
+    }
+    .left-1{
+        flex-wrap: wrap;
+        max-width: 500px;
+        justify-content: center;
+    }
+    .left-1 .pagraph{
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    nav{
+        padding: 20px 50px;
+    }
+    header .phone div{
+        width: 400px;
+    }
+    .logos img{
+        padding: 0 50px;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+    }
+    .selected .images{
+        justify-content: center;
+    }
+    .from{
+        padding: 10px 20px;
+    }
+    .left, .left-1{
+        width: 100%;
+        justify-content: center;
+    }
+    .tweets{
+        width: 100%;
+    }
+    footer{
+        margin-inline: 20px;
+    }
+
+@media(max-width:480px){
+    nav{
+        padding: 20px 20px;
+        gap: 20px;
+    }
+    nav img{
+        width: 70%;
+    }
+    .nav-bar ul{
+        gap: 20px;
+        align-items: center;
+        padding-inline: 0;
+    }
+    header .phone{
+        padding: 20px 20px 0px 20px;
+        gap: 0px;
+    }
+    header .phone .phoned{
+        width: 200px;
+        justify-content: center;
+    }
+    header .phone div{
+        width: 300px;
+    }
+    header .phone h2{
+        font-size: 40px;
+    }
+    .logos img{
+        padding: 0 20px;
+        width: 100px;
+    }
+    .features div{
+        width: 100%;
+    }
+    .selected{
+        padding: 10px 20px;
+    }
+    .selected .images img{
+        width: 100%;
+    }
+    .from{
+        padding: 10px 20px;
+    }
+    .titles{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+}

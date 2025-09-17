@@ -1,0 +1,47 @@
+<div>
+            <div>
+            <div class="titles">
+                <h2><img src="assets/images/shape03.png" alt="int"> From our blog</h2>  
+            </div>
+            <div class="boxes">
+                <div class="left">
+                    <img src="assets/images/imagen-a.webp" alt="21">
+                    <div class="pagraph">
+                        <h3>our work process reviewed </h3>
+                        <p>Lorem ipsum dolor sit amet consectetunemo? Quae voluptas repellendus perferendis atque, tenetur nisi distinctio exercitationem explicabo. <a href="#">Read more</a></p>
+                        <span>01/01/13-10:21 am</span>
+                    </div>
+                </div>
+                <div class="left-1">
+                    <img src="assets/images/imagen-a2.webp" alt="21">
+                    <div class="pagraph">
+                        <h3>who we are at Appcompany</h3>
+                        <p>Lorem ipsum dolor sit amet consectetunemo? Quae voluptas repellendus perferendis atque, tenetur nisi distinctio exercitationem explicabo. <a href="#">Read more</a></p>
+                        <span>01/01/13-10:21 am</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rigth">
+                <div class="titles">
+                <h2><img src="assets/images/shape03.png" alt="int"> From our blog</h2>  
+            </div>
+            <ul class="tweets">
+                <li>
+                    <p><b>@Apptastico:</b> In <a href="#">pellentesque.com</a> faucibus vestibulum. Nulla at nulla justo, eget Duis aliquet egestas <a href="#">#purus</a> in <a href="#">#blandit</a>.
+                    </p>
+                    <span class="fecha">01/01/13 - 10:21 AM</span>
+                </li>
+                <li>
+                    <p><b>@Apptastico:</b> In <a href="#">pellentesque.com</a> faucibus vestibulum. Nulla at nulla justo, eget Duis aliquet egestas <a href="#">#purus</a> in <a href="#">#blandit</a>.
+                    </p>
+                    <span class="fecha">01/01/13 - 10:21 AM</span>
+                </li>
+                <li>
+                    <p><b>@Apptastico:</b> In <a href="#">pellentesque.com</a> faucibus vestibulum. Nulla at nulla justo, eget Duis aliquet egestas <a href="#">#purus</a> in <a href="#">#blandit</a>.
+                    </p>
+                    <span class="fecha">01/01/13 - 10:21 AM</span>
+                </li>
+            </ul>
+            <a href="#" class="enlace">Follow us on Twitter</a>      
+            </div>
+       </div>
